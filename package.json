@@ -1,43 +1,51 @@
 {
-	"name": "goap-oriented",
-	"version": "1.0.0",
-	"description": "A TypeScript implementation of Goal-Oriented Action Planning",
-	"main": "dist/index.js",
-	"types": "dist/index.d.ts",
-	"scripts": {
-		"build": "tsc",
-		"test": "jest --config jest.config.js",
-		"prepublish": "npm run build",
-		"lint": "eslint src/**/*.ts",
-		"format": "prettier --write \"src/**/*.ts\"",
-		"prepare": "husky install"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/TandemWolf/goap-oriented.git"
-	},
-	"keywords": [
-		"goap",
-		"ai",
-		"planning",
-		"typescript",
-		"game-ai"
-	],
-	"author": "Your Name",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/TandemWolf/goap-oriented/issues"
-	},
-	"homepage": "https://github.com/TandemWolf/goap-oriented#readme",
-	"devDependencies": {
-		"@types/jest": "^29.5.14",
-		"@typescript-eslint/eslint-plugin": "^5.0.0",
-		"@typescript-eslint/parser": "^5.0.0",
-		"eslint": "^8.0.0",
-		"husky": "^8.0.0",
-		"jest": "^29.7.0",
-		"prettier": "^2.8.0",
-		"ts-jest": "^29.2.5",
-		"typescript": "^5.0.0"
-	}
+  "name": "@tandemwolf/goap-oriented",
+  "version": "1.0.0",
+  "description": "A TypeScript implementation of Goal-Oriented Action Planning",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jest.config.js",
+    "prepublish": "npm run build",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TandemWolf/goap-oriented.git"
+  },
+  "keywords": [
+    "goap",
+    "ai",
+    "planning",
+    "typescript",
+    "game-ai"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TandemWolf/goap-oriented/issues"
+  },
+  "homepage": "https://github.com/TandemWolf/goap-oriented#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "husky": "^8.0.0",
+    "jest": "^29.7.0",
+    "prettier": "^2.8.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
