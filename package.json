@@ -1,5 +1,5 @@
 {
-  "name": "@tandemwolf/goap-oriented",
+  "name": "goap-oriented",
   "version": "1.0.0",
   "description": "A TypeScript implementation of Goal-Oriented Action Planning",
   "main": "dist/index.js",
