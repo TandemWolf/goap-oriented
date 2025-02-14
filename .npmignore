@@ -1,0 +1,10 @@
+src/
+tests/
+.github/
+.husky/
+.eslintrc.json
+.prettierrc
+jest.config.js
+tsconfig.json
+*.test.ts
+coverage/ 
